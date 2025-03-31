@@ -1,0 +1,19 @@
+class GeradorRelatorio {
+  void gerar() {
+    // Lógica para gerar o relatório
+  }
+}
+
+class EnviadorEmail {
+  void enviar(String relatorio) {
+    // Lógica para enviar por e-mail
+  }
+}
+
+class ArmazenadorBanco {
+  void salvar(String relatorio) {
+    // Lógica para salvar no banco
+  }
+}
+
+
