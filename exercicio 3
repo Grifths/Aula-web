@@ -1,0 +1,17 @@
+abstract class Desconto {
+  double calcular(double valor);
+}
+
+class DescontoClienteFrequente implements Desconto {
+  @override
+  double calcular(double valor) {
+    return valor * 0.10;
+  }
+}
+
+class DescontoClienteVIP implements Desconto {
+  @override
+  double calcular(double valor) {
+    return valor * 0.20;
+  }
+}
